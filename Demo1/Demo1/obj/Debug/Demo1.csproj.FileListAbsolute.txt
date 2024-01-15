@@ -1,0 +1,8 @@
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\bin\Debug\Demo1.exe.config
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\bin\Debug\Demo1.exe
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\bin\Debug\Demo1.pdb
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\obj\Debug\Demo1.csproj.AssemblyReference.cache
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\obj\Debug\Demo1.csproj.SuggestedBindingRedirects.cache
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\obj\Debug\Demo1.csproj.CoreCompileInputs.cache
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\obj\Debug\Demo1.exe
+C:\Users\sdytiuk\Documents\GitHub\CMPE2300_1232_Public\Demo1\Demo1\obj\Debug\Demo1.pdb
