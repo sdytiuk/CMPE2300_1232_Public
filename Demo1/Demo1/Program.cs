@@ -35,6 +35,11 @@ namespace Demo1
         {
             _iDepth = depth;
         }
+
+        public sample (int depth, int height):this(depth)
+        {
+            _iHeight = height;
+        }
     }
     internal class Program
     {
