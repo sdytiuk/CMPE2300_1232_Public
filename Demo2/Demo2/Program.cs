@@ -17,6 +17,9 @@ namespace Demo2
             Console.WriteLine(Adam.ShowYourself());
             Console.WriteLine(Sydney.ShowYourself());
             Console.WriteLine(Michael.ShowYourself());
+            Michael.first = "salamander";
+            Console.WriteLine(Michael.first);
+            Console.WriteLine(Michael.Id);
 
             Console.Read();
         }

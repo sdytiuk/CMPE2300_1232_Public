@@ -9,7 +9,21 @@ namespace Demo2
     internal class People
     {
         readonly int socialInsuranceNumber;
-        string firstname, lastname;
+        private string firstname, lastname;
+
+        //how to allow access to display the firstname?
+        //MANUAL PROPERTY!! BACKER FIELDS
+        public string first
+        {
+            get { return firstname; } 
+            set {
+                if (value.ToLower()[0] == firstname.ToLower()[0]) firstname = value;
+            }
+        }
+
+        //AUTOMATIC PROPERTY
+        //Automatically creates a backing field
+        public string Id { get; private set; }
 
         //CTOR (birth of a people)
         //all classes come with a default constructor
@@ -21,6 +35,7 @@ namespace Demo2
             socialInsuranceNumber = 0;
             firstname = "Adam";
             lastname = "";
+            Id = socialInsuranceNumber.ToString();
         }
 
         //what if you want to specify assignments?
@@ -29,12 +44,14 @@ namespace Demo2
             firstname = fName;
             this.lastname = lastname;
             this.socialInsuranceNumber = socialInsuranceNumber;
+            Id = socialInsuranceNumber.ToString();
         }
 
         public People(int socialInsuranceNumber, string lastname):this()
         {
             this.socialInsuranceNumber = socialInsuranceNumber;
             this.lastname = lastname;
+            Id = socialInsuranceNumber.ToString();
         }
 
         public string ShowYourself()
