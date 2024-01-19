@@ -21,6 +21,11 @@ namespace Demo2
             }
         }
 
+        public string WhatAmI
+        {
+            get { return "Person"; }
+        }
+
         //AUTOMATIC PROPERTY
         //Automatically creates a backing field
         public string Id { get; private set; }
