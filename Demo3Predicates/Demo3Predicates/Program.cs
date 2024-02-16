@@ -26,9 +26,13 @@ namespace Demo3Predicates
                 Console.Write(i + ", ");
             }
 
+            //explicit predicate declaration
             Console.WriteLine(list.Find(new Predicate<int>(isBigger)));
 
+            //short-form version - int implied by elements of the list
             Console.WriteLine(list.Find(isBigger));
+
+            //
 
             Console.ReadKey();
         }
