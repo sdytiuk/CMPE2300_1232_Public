@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExtensionMethods
 {
+    //int DavidsQuestion = 5; Cannot have...
+
     public static class ShaneQuestion
     {
         public static string toFixed3(this double dVal)
