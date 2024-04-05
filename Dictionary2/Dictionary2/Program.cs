@@ -61,6 +61,7 @@ namespace Dictionary2
             List<KeyValuePair<string,int>> colesList = new List<KeyValuePair<string,int>>();
             colesList.Add(new KeyValuePair<string, int>("Apples", 1));
             colesList.Add(new KeyValuePair<string, int>("Oranges", 2));
+            colesList.Add(new KeyValuePair<string, int>("Oranges", 3));
 
             Dictionary<string,int> ColesDictionary = colesList.OrderByDescending(i => i.Value).
                 ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
